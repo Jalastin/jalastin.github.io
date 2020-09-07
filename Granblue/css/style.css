@@ -115,3 +115,27 @@ td.filler{
 td.drop{
     background: #4171BD;
 }
+.test{
+    font-size: 30px;
+}
+td.drop:hover + .test{
+    font-size:300px;
+}
+img.drop{
+    display: inline-block;
+    width: 40%;
+}
+img.dropoff{
+    position: absolute;
+    width:350px;
+    top:500px;
+    right:225px;
+    display: none;
+}
+img.dropon{
+    position: absolute;
+    width:350px;
+    top:500px;
+    right:225px;
+    display: inline-block;
+}
