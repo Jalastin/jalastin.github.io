@@ -119,7 +119,7 @@ td.drop{
     font-size: 30px;
 }
 td.drop:hover + .test{
-    font-size:300px;
+    font-size: 300px;
 }
 img.drop{
     display: inline-block;
@@ -127,15 +127,15 @@ img.drop{
 }
 img.dropoff{
     position: absolute;
-    width:350px;
-    top:500px;
-    right:225px;
+    width: 350px;
+    top: 500px;
+    right: 225px;
     display: none;
 }
 img.dropon{
     position: absolute;
-    width:350px;
-    top:500px;
-    right:225px;
+    width: 350px;
+    top: 500px;
+    right: 225px;
     display: inline-block;
 }

@@ -1,12 +1,9 @@
 /*For Five Year Plan*/
-function showDrop(harp) {
-    var num = harp.alt;
-    console.log(num);
-    var dropId = "drop" + num;
+function showDrop(element) {
+    var dropId = element.alt;
     document.getElementById(dropId).className = "dropon";
 }
-function hideDrop(harp) {
-    var num = harp.alt;
-    var dropId = "drop" + num;
+function hideDrop(element) {
+    var dropId = element.alt;
     document.getElementById(dropId).className = "dropoff";
 }
