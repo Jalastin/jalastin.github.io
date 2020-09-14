@@ -28,6 +28,9 @@ header h1{
 header nav{
     margin: 40px 0px 30px -10px;
 }
+a.navbar-brand{
+    float:left;
+}
 nav a{
     margin: 0px 10px;
     text-decoration: none;
@@ -86,7 +89,7 @@ nav.toc a{
 table.calendar{
     border: solid 0.5px black;
     background: #CCEBF0;
-    width: 40%;
+    width: 400px;
     height: 40%;
     border-spacing: 0;
 }
@@ -130,20 +133,16 @@ td.drop:hover + .test{
 }
 img.drop{
     display: inline-block;
-    width: 40%;
+    width: 45%;
 }
 img.dropoff{
-    position: absolute;
-    width: 350px;
-    top: 500px;
-    right: 225px;
     display: none;
 }
 img.dropon{
     position: absolute;
     width: 350px;
-    top: 500px;
-    right: 225px;
+    top: 60%;
+    right: 10%;
     display: inline-block;
 }
 /*For Sticky Footer styling*/
