@@ -108,6 +108,7 @@ table.calendar{
     border-radius: 25px 25px 0 0;
     border: solid 2px #000000;
     border-bottom: 0px;
+    text-align: center;
 }
 table.calendar td{
 
