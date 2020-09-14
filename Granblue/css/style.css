@@ -175,3 +175,7 @@ div.toc{
     transition: 0.5s;
     display: inline-block;
 }
+/*Temp fix to get rid of horizontal scroll bar*/
+html{
+    overflow-x: hidden;
+}
