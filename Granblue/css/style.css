@@ -32,7 +32,7 @@ a.navbar-brand{
     float:left;
 }
 nav a{
-    margin: 0px 10px;
+    margin: 5px 10px 0 10px;
     text-decoration: none;
     border: 3px solid;
     padding:5px;
@@ -161,7 +161,7 @@ footer p{
 }
 /*For Home Page ToC styling*/
 div.toc{
-    margin: 0px 10px;
+    margin: 10px;
     text-decoration: none;
     border: 3px solid;
     padding:5px;
