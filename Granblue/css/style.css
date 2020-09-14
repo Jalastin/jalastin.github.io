@@ -3,6 +3,9 @@ body{
     background: #CCEBF0;
     transition: 0.5s;
 }
+/* section{
+    background: #FFFFFF;
+} */
 img.ss{
     width: 400px;
 }
@@ -23,7 +26,6 @@ header h1{
     margin-bottom: 10px;
 }
 header nav{
-    clear:both;
     margin: 40px 0px 30px -10px;
 }
 nav a{
@@ -40,6 +42,7 @@ nav a{
     background: #FFFFFF;
     color: #000000;
     transition: 0.5s;
+
 }
 a.current{
     background: #66feff;
@@ -54,6 +57,7 @@ nav a:hover{
     background: -moz-linear-gradient(top, #0d46a0 0%, #66feff 100%);
     background: -o-linear-gradient(top, #0d46a0 0%, #66feff 100%);
     background: linear-gradient(top, #0d46a0 0%, #66feff 100%);
+    text-decoration: none;
 }
 footer nav{
     margin: 20px 0px;
@@ -61,6 +65,7 @@ footer nav{
 header hr{
     clear: both;
 }
+/*For Awards ToC*/
 nav.toc{
     display: inline-block;
     position: fixed;
@@ -77,6 +82,7 @@ nav.toc a{
     margin: 10% auto;
     width:100px;
 }
+/*For Five Year Plan styling*/
 table.calendar{
     border: solid 0.5px black;
     background: #CCEBF0;
@@ -85,6 +91,7 @@ table.calendar{
     border-spacing: 0;
 }
 .calendar caption{
+    caption-side: top;
     background: #0d46a0;
     background: -webkit-linear-gradient(top, #0d46a0 0%, #66feff 100%);
     background: -moz-linear-gradient(top, #0d46a0 0%, #66feff 100%);
@@ -137,5 +144,34 @@ img.dropon{
     width: 350px;
     top: 500px;
     right: 225px;
+    display: inline-block;
+}
+/*For Sticky Footer styling*/
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+section.main{
+    flex:1;
+}
+footer p{
+    font-size:70%;
+}
+/*For Home Page ToC styling*/
+div.toc{
+    margin: 0px 10px;
+    text-decoration: none;
+    border: 3px solid;
+    padding:5px;
+
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+
+    background: #FFFFFF;
+    color: #000000;
+    transition: 0.5s;
     display: inline-block;
 }

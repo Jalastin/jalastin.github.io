@@ -4,55 +4,99 @@
     <meta charset="UTF-8">
     <title>Jalastin's Granblue Stuff</title>
     <link rel="icon" type="image/png" sizes="96x96" href="imgs/favicon-96x96.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <a href="https://jalastin.github.io/Granblue/gbfhome.html"><img src="imgs/favicon-96x96.png" alt="Blue Sphere"></a>
-        <h1>Jalastin's Granblue Stuff
-            <nav>
-                <a href="https://jalastin.github.io/Granblue/gbf5yrplan.html">Five Year Plan</a>
-                <a href="https://jalastin.github.io/Granblue/gbfdmgprogress.html">Damage Progression</a>
-                <a href="https://jalastin.github.io/Granblue/gbfawards.html">Achievements</a>
-                <a href="https://jalastin.github.io/Granblue/gbfmisc.html">Miscellaneous</a>
-            </nav>
-        </h1>
-        <hr>
+        <a href="https://jalastin.github.io/GranblueJS/gbfhome.html"><img src="imgs/favicon-96x96.png" alt="Blue Sphere"></a>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="https://jalastin.github.io/Granblue/gbfhome.html">
+                Jalastin's Granblue Stuff
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active current" href="https://jalastin.github.io/Granblue/gbfhome.html">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="https://jalastin.github.io/Granblue/gbf5yrplan.html">Five Year Plan</a>
+                <a class="nav-item nav-link" href="https://jalastin.github.io/Granblue/gbfdmgprogress.html">Damage Progression</a>
+                <a class="nav-item nav-link" href="https://jalastin.github.io/Granblue/gbfawards.html">Achievements</a>
+              </div>
+            </div>
+          </nav>
+          <hr>
     </header>
-    <section id="faq">
-        <h2>About Me (and Granblue)</h2>
-        <details>
-            <summary>What even is Granblue?</summary>
-            Granblue Fantasy is a gacha JRPG created by Cygames. You can try it 
-            <a href="http://game.granbluefantasy.jp">here</a> 
-            if you want to.
-        </details>
-        <details>
-            <summary>Why did I start playing Granblue?</summary>
-            Got baited by the <a href="https://gbf.wiki/Code_Geass:_Lelouch_of_the_Rebellion_-_The_Blue_Reckoning">Code Geass collaboration event.</a>
-        </details>
-        <details>
-            <summary>Why main Water?</summary>
-            I didn't choose Water, Water chose me. Besides the guaranteed characters and Code Geass characters, Drang was my very first character. Everything just happened after that.
+    <section class="main">
+        <section id="faq">
+            <h2>About Me (and Granblue)</h2>
             <br>
-            <img src="imgs/gbfnotrecentchars.png" alt="Screenshot showing that my first character was basically Drang.">
-        </details>
-    </section>
-    <section id="toc">
-        <h2><a href="https://jalastin.github.io/Granblue/gbf5yrplan.html">Five Year Plan</a></h2>
-        <h2><a href="https://jalastin.github.io/Granblue/gbfdmgprogress.html">Damage Progression</a></h2>
-        <h2><a href="https://jalastin.github.io/Granblue/gbfawards.html">Achievements</a></h2>
-        <h2><a href="https://jalastin.github.io/Granblue/gbfmisc.html">Miscellaneous</a></h2>
+            <div class="conntainer">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <h3>What is Granblue?</h3>
+                        <p>Granblue Fantasy is a gacha JRPG created by Cygames.
+                            <a href="http://game.granbluefantasy.jp">You can try it right now by clicking here!</a> 
+                            While there is not official release outside Japan, it has full English language support.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h3>Why did I start playing Granblue?</h3>
+                        <p>Got baited by the 
+                            <a href="https://gbf.wiki/Code_Geass:_Lelouch_of_the_Rebellion_-_The_Blue_Reckoning">Code Geass collaboration event.</a>
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h3>Why main Water?</h3>
+                        <p>I didn't choose Water, Water chose me. 
+                            Besides the guaranteed characters and Code Geass characters, 
+                            Drang was my very first character. Everything just happened after that.
+                        </p>
+                        <details>
+                            <summary>Click here to see the screenshot of this!</summary>
+                            <img src="imgs/gbfnotrecentchars.png" alt="Screenshot showing that my first character was basically Drang.">
+                        </details>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br>
+        <section id="toc">
+            <h2>About This Site</h2>
+            <br>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-5 toc">
+                        <h3>Five Year Plan</h3>
+                        <p>This page details my first big grind in Granblue, where I farmed an item known as the "Tyros Zither"</p>
+                            <a href="https://jalastin.github.io/Granblue/gbf5yrplan.html">Click here to learn more about my Five Year Plan!</a>
+                    </div>
+                    <br>
+                    <div class="col-lg-3 col-md-5 toc">
+                        <h3>Damage Progression</h3>
+                        <p>This page details my team's strength/total damage in my time playing Granblue.</p>
+                        <a href="https://jalastin.github.io/Granblue/gbfdmgprogress.html">Click here to see my Damage Progression!</a>
+                    </div>
+                    <br>
+                    <div class="col-lg-3 col-md-5 toc">
+                        <h3>Achievements</h3>
+                        <p>This page details special things I've done in Granblue that I thought deserve recognition.</p>
+                        <a href="https://jalastin.github.io/Granblue/gbfawards.html">Click here to see my Achievements!</a>
+                    </div>
+                </div>
+            </div>
+        </section>
     </section>
     <footer>
         <hr>
-        <nav>
-            <a class="current" href="https://jalastin.github.io/Granblue/gbfhome.html">Home</a>
-            <a href="https://jalastin.github.io/Granblue/gbf5yrplan.html">Five Year Plan</a>
-            <a href="https://jalastin.github.io/Granblue/gbfdmgprogress.html">Damage Progression</a>
-            <a href="https://jalastin.github.io/Granblue/gbfawards.html">Achievements</a>
-            <a href="https://jalastin.github.io/Granblue/gbfmisc.html">Miscellaneous</a>
-        </nav>
+        <p>Just want to fully disclaim here in the footer that majority of
+            the pictures used are either art assets from Granblue Fantasy itself
+            or screenshots taken in-game.
+        </p>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 </html>
