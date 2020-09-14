@@ -101,6 +101,7 @@ table.calendar{
     background: -o-linear-gradient(top, #0d46a0 0%, #66feff 100%);
     background: linear-gradient(top, #0d46a0 0%, #66feff 100%);
     font-size: 150%;
+    color: #000000;
     -webkit-border-radius: 25px 25px 0 0;
     -moz-border-radius: 25px 25px 0 0;
     -o-border-radius: 25px 25px 0 0;
