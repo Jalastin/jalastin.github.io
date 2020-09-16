@@ -110,6 +110,14 @@ div.carousel-caption{
 #harppic{
     width: 10%;
 }
+/*For Europa Raid Boss pic*/
+#europaboss {
+    width: 70%;
+}
+div.general figure{
+    margin: 0 auto;
+    text-align: center;
+}
 /*For Five Year Plan styling*/
 table.calendar{
     border: solid 0.5px #000000;
@@ -169,7 +177,7 @@ img.dropon{
     position: absolute;
     width: 350px;
     display: inline-block;
-    top: 40%;
+    top: 80%;
     right: 40%;
 }
 /*For Sticky Footer styling*/
@@ -184,8 +192,8 @@ section.main{
 footer p{
     font-size:70%;
 }
-/*For Home Page ToC styling*/
-div.toc{
+/*For genearl div styling*/
+div.general{
     margin: 10px;
     text-decoration: none;
     border: 3px solid;
