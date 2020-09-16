@@ -2,7 +2,7 @@ google.charts.load('current', {packages: ['corechart']});
 google.charts.setOnLoadCallback(drawChart);
 
 function drawChart() {
-// Define the chart to be drawn.
+    // Define the chart to be drawn.
     var data = new google.visualization.DataTable();
     data.addColumn('string', 'Date');
     data.addColumn('number', 'Total Damage');
@@ -41,16 +41,18 @@ function drawChart() {
         ['', 39890836]
     ]);
 
+     // Set chart options
     var options = {
-        title: 'One-Turn KIll (OTK) Damage',
-        legend: 'none',
-    };
-    
+        'title':'One-Turn Kill (OTK) Damage',
+        'legend':'none',
+        height: $(window).height()*0.75
+    }
 
-    // Instantiate and draw the chart.
+    // Instantiate and draw our chart, passing in some options.
     var chart = new google.visualization.ColumnChart(document.getElementById('myChart'));
-    chart.draw(data, null);
+    chart.draw(data, options);
 
+    // Responsively resize graph
     $(window).resize(function(){
         drawChart();
     });
