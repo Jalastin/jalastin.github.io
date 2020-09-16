@@ -6,7 +6,7 @@ function drawChart() {
     var data = new google.visualization.DataTable();
     data.addColumn('string', 'Date');
     data.addColumn('number', 'Total Damage');
-     data.addRows([
+    data.addRows([
         ['', 12774248],
         ['', 14740794],
         ['', 15004729],
@@ -41,6 +41,10 @@ function drawChart() {
         ['', 39890836]
     ]);
 
+    var options = {
+        title: 'One-Turn KIll (OTK) Damage',
+        legend: 'none',
+    };
     
 
     // Instantiate and draw the chart.
