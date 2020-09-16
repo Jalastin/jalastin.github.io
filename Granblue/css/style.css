@@ -3,9 +3,6 @@ body{
     background: #CCEBF0;
     transition: 0.5s;
 }
-/* section{
-    background: #FFFFFF;
-} */
 img.ss{
     width: 400px;
 }
@@ -107,6 +104,7 @@ div.carousel-caption{
 /*For Awards Image Carousel (UnF) styling*/
 #carousel4 img{
     width:100%;
+    overflow-y: scroll;
 }
 /*For Five Year Plan harp pic*/
 #harppic{
@@ -165,14 +163,14 @@ img.drop{
     width: 45%;
 }
 img.dropoff{
-    display: none;
+    display:none;
 }
 img.dropon{
     position: absolute;
     width: 350px;
-    top: 60%;
-    right: 10%;
     display: inline-block;
+    top: 40%;
+    right: 40%;
 }
 /*For Sticky Footer styling*/
 body{
