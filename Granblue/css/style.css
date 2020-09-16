@@ -203,3 +203,11 @@ div.toc{
 html{
     overflow-x: hidden;
 }
+/*For Graph styling*/
+.chart {
+    border: solid 1px #000000;
+    width: 100%; 
+  }
+  .row {
+    margin:0 !important;
+  }
