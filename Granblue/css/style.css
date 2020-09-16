@@ -121,7 +121,7 @@ div.general figure{
 /*For Five Year Plan styling*/
 table.calendar{
     border: solid 0.5px #000000;
-    background: #CCEBF0;
+    background: #839ABF;
     width: 400px;
     height: 40%;
     border-spacing: 0;
@@ -221,3 +221,20 @@ html{
   .row {
     margin:0 !important;
   }
+/*For Header Positioning*/
+h2 {
+    text-align: center;
+    transition: 0.5s;
+}
+/* @media (min-width: 576px) {
+    h2 {
+        text-align: center;
+        transition: 0.5s;
+    }
+} */
+@media (min-width: 992px) {
+    h2 {
+        margin-right: 30%;
+        transition: 0.5s;
+    }
+}
