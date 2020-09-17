@@ -44,6 +44,7 @@ function drawChart() {
     var options = {
         'title':'One-Turn Kill (OTK) Damage',
         'chartArea': {'width': '80%', 'height': '80%'},
+        'legend': {'position':'bottom'},
         bar: {groupWidth:'95%'},
         vAxis: {title: 'Total Damage'},
         height: $(window).height()*0.75
