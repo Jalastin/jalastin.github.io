@@ -17,16 +17,9 @@ header img{
     margin-right: 10px;
     width: 100px;
 }
-header h1{
-    float:left;
-    margin: 0 auto;
-    margin-bottom: 10px;
-}
 header nav{
-    margin: 20px 0 40px 0;
-}
-a.navbar-brand{
-    float:left;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 nav a{
     margin: 5px 10px 0 10px;
